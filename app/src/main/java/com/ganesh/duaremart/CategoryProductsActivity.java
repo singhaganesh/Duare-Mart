@@ -6,22 +6,18 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
 import com.ganesh.duaremart.Adapter.CategoryProductAdapter;
 import com.ganesh.duaremart.Adapter.MainCategoryAdapter;
 import com.ganesh.duaremart.ModelResponce.CategoryProductsResponse;
 import com.ganesh.duaremart.ModelResponce.CategoryProductsResponseData;
 import com.ganesh.duaremart.Network.RetrofitClint;
 import com.ganesh.duaremart.databinding.ActivityCategoryProductsBinding;
-
 import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

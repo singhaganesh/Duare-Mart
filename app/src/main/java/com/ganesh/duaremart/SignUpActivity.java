@@ -10,22 +10,18 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
 import com.ganesh.duaremart.ModelResponce.SignUpResponse;
 import com.ganesh.duaremart.ModelResponce.VerifyOtpSignupResponse;
 import com.ganesh.duaremart.Network.RetrofitClint;
 import com.ganesh.duaremart.databinding.ActivitySignUpBinding;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
-
 import java.util.ArrayList;
 import java.util.Objects;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -145,8 +141,6 @@ public class SignUpActivity extends AppCompatActivity {
                 if (edtOtpVerification.getText().toString().trim().isEmpty()) {
                     Toast.makeText(SignUpActivity.this, "Enter OTP", Toast.LENGTH_SHORT).show();
                 } else {
-//                    VerifyOptSignupRequestData requestData = new VerifyOptSignupRequestData(signUpResponse.getData().getUser_id(), signUpResponse.getData().getUser_otp1());
-
                     Call<VerifyOtpSignupResponse> call = RetrofitClint
                             .getInstance()
                             .getApi()

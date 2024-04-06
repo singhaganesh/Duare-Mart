@@ -4,12 +4,9 @@ import com.ganesh.duaremart.ModelResponce.CategoryProductsResponse;
 import com.ganesh.duaremart.ModelResponce.CategoryResponse;
 import com.ganesh.duaremart.ModelResponce.LogInResponse;
 import com.ganesh.duaremart.ModelResponce.SignUpResponse;
-import com.ganesh.duaremart.ModelResponce.VerifyOptSignupRequestData;
 import com.ganesh.duaremart.ModelResponce.VerifyOtpLoginResponse;
 import com.ganesh.duaremart.ModelResponce.VerifyOtpSignupResponse;
-
 import retrofit2.Call;
-import retrofit2.http.Body;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;

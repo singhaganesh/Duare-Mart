@@ -4,10 +4,8 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.ganesh.duaremart.ModelResponce.CategoryProductsResponseData;
 import com.ganesh.duaremart.databinding.ItemCategoryProductBinding;
 import com.squareup.picasso.Picasso;

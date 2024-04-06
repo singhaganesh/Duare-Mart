@@ -9,22 +9,18 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
 import com.ganesh.duaremart.ModelResponce.LogInResponse;
 import com.ganesh.duaremart.ModelResponce.VerifyOtpLoginResponse;
 import com.ganesh.duaremart.Network.RetrofitClint;
 import com.ganesh.duaremart.Storage.PreferenceManager;
 import com.ganesh.duaremart.databinding.ActivityLoginBinding;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
-
 import java.util.Objects;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
